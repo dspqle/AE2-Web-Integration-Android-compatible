@@ -1,5 +1,7 @@
 # AE2 Android Compat
 
+![AE2 Android Compat](docs/screenshot.png)
+
 让 **AE2 Web Integration** 在 Android 上正常运行的兼容 Mod。
 
 A standalone NeoForge compatibility mod that makes **AE2 Web Integration 2.0.0** work on Android (FCL / PojavLauncher) without modifying a single byte of the original jar.
