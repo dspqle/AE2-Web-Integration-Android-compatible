@@ -1,0 +1,15 @@
+# Build output
+out/
+build/
+*.class
+*.jar
+!lib/*.jar
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log

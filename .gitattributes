@@ -1,0 +1,3 @@
+# Binary native libraries
+*.so binary
+*.jar binary
