@@ -1,17 +1,16 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "LGPL-3.0"
 [[mods]]
 modId = "ae2androidcompat"
 version = "1.0.0"
 displayName = "AE2 Web Integration - Android Compat"
+authors = "dspqle"
+license = "MIT"
 description = '''
 Android/bionic compatibility layer for AE2 Web Integration.
-
-Replaces org.sqlite.util.OSInfo and org.sqlite.SQLiteJDBCLoader at class-transform
-time so that the bundled sqlite-jdbc native library works on Android (bionic libc),
-and supplies a bionic-built libsqlitejdbc.so.
-
+Ships a bionic-built libsqlitejdbc.so and points org.sqlite.lib.path at it
+before sqlite-jdbc initializes, so the native library loads on Android.
+No JVM arguments required.
 The original AE2 Web Integration jar is NOT modified in any way.
 '''
 
